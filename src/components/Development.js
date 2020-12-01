@@ -7,6 +7,7 @@ const WrapperPerfilArrow = styled.div`
 
 const WrapperPerfil = styled.div``;
 
+const ImagenPerfil = "../public/images/iconPerfil.png";
 const PerfilFoto = styled.img``;
 
 const WrapperPerfilDetails = styled.div`
@@ -29,7 +30,7 @@ function Development() {
 	return (
 		<WrapperPerfilArrow>
 			<WrapperPerfil>
-				<PerfilFoto />
+				<PerfilFoto src={ImagenPerfil} />
 				<WrapperPerfilDetails>
 					<NamePerfil>Jorge Argüelles</NamePerfil>
 					<InfoPerfil>Coursebook</InfoPerfil>
