@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Development from "./components/Development";
+import Perfil from "./components/Perfil";
 
 ReactDOM.render(
 	<React.StrictMode>
-		<Development />
+		<Perfil nameUser="Jorge Argüelles" detailsUser="Coursebool" />
 	</React.StrictMode>,
 	document.getElementById("root")
 );
