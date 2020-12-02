@@ -1,11 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Perfil from "./components/Perfil";
+import SearchBell from "./components/SearchBell";
 
-ReactDOM.render(
-	<React.StrictMode>
-		<Perfil nameUser="Jorge Argüelles" detailsUser="Coursebool" />
-	</React.StrictMode>,
-	document.getElementById("root")
-);
+ReactDOM.render(<SearchBell />, document.getElementById("root"));
