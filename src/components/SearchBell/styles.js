@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 const WrapperSearchBell = styled.div`
-	width: 20%;
+	margin: 10px;
+	width: 25%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -11,7 +12,7 @@ const Search = styled.input`
 	padding-left: 15px;
 	font-size: 10px;
 	width: 80%;
-	height: 25px;
+	height: 40px;
 	border-radius: 50px;
 	outline: none;
 `;
@@ -19,6 +20,7 @@ const Search = styled.input`
 const ImgBell = styled.img`
 	width: 30px;
 	height: 30px;
+	margin-left: 30px;
 `;
 
 export { WrapperSearchBell, Search, ImgBell };

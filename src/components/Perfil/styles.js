@@ -5,7 +5,7 @@ const WrapperPerfilArrow = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 20px 0 30px 0;
+	padding: 20px 0 50px 0;
 	border-bottom: black 1px solid;
 `;
 
@@ -38,7 +38,8 @@ const ArrowLeft = styled.img`
 	height: 25px;
 	border-radius: 20px;
 	padding: 3px;
-	margin-right: -10px;
+	margin-right: -85px;
+	background-color: white;
 `;
 
 export {

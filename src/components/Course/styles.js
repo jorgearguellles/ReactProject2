@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
 const WrapperCourse = styled.div`
-	width: 300px;
-	height: 300px;
+	width: 260px;
+	height: 260px;
 	// background-color: #f3e;
-	background-color: ${(props) => props.Background};
 	border-radius: 40px;
 	padding: 20px;
-	margin: 20px;
+	margin: 0 auto;
 	flex-shrink: 0;
 `;
 
@@ -25,8 +24,8 @@ const Details = styled(Categories)`
 `;
 
 const WrapperImg = styled.div`
-	width: 300px;
-	margin: 20px auto;
+	width: 100%;
+	margin: auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;

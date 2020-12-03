@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 const WrapperSectionMenuLat = styled.div`
-	width: 20%;
-	background-color: #f3e2ef;
+	width: 80%;
+	height: 15%;
+	background-color: green;
 	border-radius: 40px;
 	padding: 20px;
-	margin-top: 90px;
+	margin-top: 25px;
 `;
 
 const WrapperDetails = styled.div``;
@@ -20,13 +21,14 @@ const Details = styled(Title)`
 `;
 
 const WrapperImg = styled.div`
-	width: inherit;
-	margin: 20px auto;
+	display: flex;
+	align-items: center;
 `;
 
 const ImgLat = styled.img`
 	width: 50px;
 	heigth: 50px;
+	margin: 40px auto;
 `;
 
 export {

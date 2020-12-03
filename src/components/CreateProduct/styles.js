@@ -1,22 +1,23 @@
 import styled from "styled-components";
 
 const WrapperCreateProduct = styled.div`
-	width: 80%;
+	margin: 0 20px;
+	width: 95%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 `;
 
 const WrapperMenus = styled.div`
-	width: 40%;
+	width: 30%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 `;
 
 const CreateBottom = styled.button`
-	width: 150px;
-	height: 30px;
+	width: 250px;
+	height: 40px;
 	background-color: orange;
 	color: white;
 	font-family: ruda;
