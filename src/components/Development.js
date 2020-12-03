@@ -1,28 +1,8 @@
 import React from "react";
-import SearchBell from "./SearchBell";
-import styled from "styled-components";
-
-const WrapperProductSearchBell = styled.div`
-	width: 80%;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-`;
-
-const Title = styled.p`
-	font-size: 25px;
-	font-family: ruda;
-	margin: 0;
-`;
 
 class Development extends React.Component {
 	render() {
-		return (
-			<WrapperProductSearchBell>
-				<Title>Productos</Title>
-				<SearchBell />
-			</WrapperProductSearchBell>
-		);
+		return <h1>HOLA</h1>;
 	}
 }
 
