@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 const WrapperPerfilArrow = styled.div`
-	width: 30vw;
+	width: 10vw;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	padding: 20px 0 30px 0;
+	border-bottom: black 1px solid;
 `;
 
 const WrapperPerfil = styled.div`

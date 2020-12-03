@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const WrapperMenuPlegable = styled.div`
 	display: flex;
+	margin-top: 30px;
 `;
 
 const WrapperTitle = styled.div`

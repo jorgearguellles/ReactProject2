@@ -1,61 +1,47 @@
 import React from "react";
 import styled from "styled-components";
 
-import Perfil from "./Perfil";
-import MenuPlegLateral from "./MenuPlegLateral";
+const WrapperSectionMenuLat = styled.div`
+	width: 20%;
+	background-color: #f3e2ef;
+	border-radius: 40px;
+	padding: 20px;
+`;
 
-const WrapperMenuLateral = styled.div`
-	width: 30%;
-	height: 100vh;
-	background-color: #eaeaea;
+const WrapperDetails = styled.div``;
+
+const Title = styled.p`
+	margin: 0;
+	font-family: ruda;
+`;
+
+const Details = styled(Title)`
+	font-size: 10px;
+`;
+
+const WrapperImg = styled.div`
+	width: inherit;
+	margin: 20px auto;
+`;
+
+const ImgMano = "./images/okHand.png";
+const ImgLateral = styled.img`
+	width: 50px;
+	heigth: 50px;
 `;
 
 class Development extends React.Component {
 	render() {
 		return (
-			<WrapperMenuLateral>
-				<Perfil nameUser="Jorge Argüelles" detailsUser="Coursebook" />
-				<MenuPlegLateral
-					Src=""
-					Title="Learning content"
-					Option1="Products"
-					Option2="Certificates"
-					Option3="Course studio"
-					Option4="LIVE class"
-				/>
-				<MenuPlegLateral
-					Src=""
-					Title="Website"
-					Option1="Website1"
-					Option2="Website2"
-					Option3="Website3"
-					Option4="Website4"
-				/>
-				<MenuPlegLateral
-					Src=""
-					Title="Marketing"
-					Option1="Marketing1"
-					Option2="Marketing2"
-					Option3="Marketing3"
-					Option4="Marketing4"
-				/>
-				<MenuPlegLateral
-					Src=""
-					Title="Analytics"
-					Option1="Analytics1"
-					Option2="Analytics2"
-					Option3="Analytics3"
-					Option4="Analytics4"
-				/>
-				<MenuPlegLateral
-					Src=""
-					Title="People"
-					Option1="People1"
-					Option2="People2"
-					Option3="People3"
-					Option4="People4"
-				/>
-			</WrapperMenuLateral>
+			<WrapperSectionMenuLat>
+				<WrapperDetails>
+					<Title>Titulo</Title>
+					<Details>deatlles</Details>
+				</WrapperDetails>
+				<WrapperImg>
+					<ImgLateral src={ImgMano} />
+				</WrapperImg>
+			</WrapperSectionMenuLat>
 		);
 	}
 }
