@@ -1,7 +1,7 @@
 import React from "react";
-import SwitchMenu from "./SwitchMenu";
-import MenuPlegable from "./MenuPlegable";
-export { WrapperCreateProduct, WrapperMenus, CreateProduct } from "./styles";
+import SwitchMenu from "../SwitchMenu";
+import MenuPlegable from "../MenuPlegable";
+import { WrapperCreateProduct, WrapperMenus, CreateBottom } from "./styles";
 
 class CreateProduct extends React.Component {
 	render() {
@@ -12,7 +12,7 @@ class CreateProduct extends React.Component {
 					<MenuPlegable Title="Sort by: None" Option="None" />
 					<MenuPlegable Title="Type: None" Option="Nones" />
 				</WrapperMenus>
-				<CreateProduct type="buttom">Create product</CreateProduct>
+				<CreateBottom type="buttom">Create product</CreateBottom>
 			</WrapperCreateProduct>
 		);
 	}

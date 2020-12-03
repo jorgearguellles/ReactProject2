@@ -4,9 +4,10 @@ import styled from "styled-components";
 import SwitchMenu from "./SwitchMenu";
 import MenuPlegable from "./MenuPlegable";
 
-const WrapperCreateProduct = styled.div`
-	width: 80%;
+const WrapperMenuLateral = styled.div`
+	width: 20%;
 	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 `;
@@ -32,14 +33,10 @@ const CreateProduct = styled.button`
 class Development extends React.Component {
 	render() {
 		return (
-			<WrapperCreateProduct>
-				<WrapperMenus>
-					<SwitchMenu />
-					<MenuPlegable Title="Sort by: None" Option="None" />
-					<MenuPlegable Title="Type: None" Option="Nones" />
-				</WrapperMenus>
-				<CreateProduct type="buttom">Create product</CreateProduct>
-			</WrapperCreateProduct>
+			<WrapperMenuLateral>
+				<Perfil />
+				<MenuPlegLateral />
+			</WrapperMenuLateral>
 		);
 	}
 }

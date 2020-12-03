@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import CreateProduct from "./components/CreateProduct";
+import Development from "./components/Development";
 
-ReactDOM.render(<CreateProduct />, document.getElementById("root"));
+ReactDOM.render(<Development />, document.getElementById("root"));

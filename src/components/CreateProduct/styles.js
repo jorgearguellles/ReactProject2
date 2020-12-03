@@ -14,7 +14,7 @@ const WrapperMenus = styled.div`
 	align-items: center;
 `;
 
-const CreateProduct = styled.button`
+const CreateBottom = styled.button`
 	width: 150px;
 	height: 30px;
 	background-color: orange;
@@ -22,7 +22,7 @@ const CreateProduct = styled.button`
 	font-family: ruda;
 	font-size: 11px;
 	border-radius: 50px;
-	border: noce;
+	border: none;
 `;
 
-export { WrapperCreateProduct, WrapperMenus, CreateProduct };
+export { WrapperCreateProduct, WrapperMenus, CreateBottom };
