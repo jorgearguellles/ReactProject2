@@ -24,7 +24,7 @@ const WrapperPerfilDetails = styled.div`
 
 const NamePerfil = styled.p`
 	width: 90px;
-	font-size: 12px;
+	font-size: 13px;
 	font-family: ruda;
 	margin: 3px 10px;
 `;
