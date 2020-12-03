@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Development from "./components/Development";
+import MenuLateral from "./components/MenuLateral";
 
-ReactDOM.render(<Development />, document.getElementById("root"));
+ReactDOM.render(<MenuLateral />, document.getElementById("root"));

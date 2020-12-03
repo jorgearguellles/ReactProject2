@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 const WrapperPerfilArrow = styled.div`
-	// background-color: #eaeaea;
-	width: 20%;
+	width: 30vw;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -22,6 +21,7 @@ const WrapperPerfilDetails = styled.div`
 `;
 
 const NamePerfil = styled.p`
+	width: 90px;
 	font-size: 12px;
 	font-family: ruda;
 	margin: 3px 10px;
@@ -34,10 +34,9 @@ const InfoPerfil = styled(NamePerfil)`
 const ArrowLeft = styled.img`
 	width: 25px;
 	height: 25px;
-	background-color: #eaeaea;
 	border-radius: 20px;
 	padding: 3px;
-	margin-right: -16px;
+	margin-right: -10px;
 `;
 
 export {

@@ -12,13 +12,12 @@ const WrapperTitleOptions = styled.div``;
 
 const ImgDownArrow = styled.img`
 	margin: 18px 10px 0 10px;
-	width: 40px;
 	width: 15px;
 	height: 15px;
 `;
 
 const Title = styled.p`
-	font-size: 16px;
+	font-size: 17px;
 	font-family: ruda;
 `;
 
@@ -27,7 +26,7 @@ const List = styled.ul`
 	list-style: none;
 	padding: 15px;
 	position: absolute;
-	margin: -15px 0px 0px -10px;
+	margin: -25px 0px 0px 20px;
 	${WrapperMenuPlegable}:hover & {
 		display: block;
 	}
@@ -35,7 +34,7 @@ const List = styled.ul`
 
 const ItemList = styled.li`
 	margin: 5px 0px;
-	font-size: 20px;
+	font-size: 13px;
 `;
 
 const Anchor = styled.a`
