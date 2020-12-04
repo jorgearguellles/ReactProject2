@@ -9,7 +9,6 @@ class CoursesSection extends React.Component {
 				<Details>Published 20 courses </Details>
 				<WrapperCourses>
 					<Course
-						background="imgObj"
 						Categories="Design"
 						Title1="Modern Art"
 						Title2="and Design"
