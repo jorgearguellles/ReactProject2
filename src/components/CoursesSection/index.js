@@ -16,7 +16,7 @@ class CoursesSection extends React.Component {
 						Details="10 lessons | 3 workshop"
 						ImgStar="./images/star.png"
 						Stars="Saved"
-						ImgC="./images/brain.png"
+						ImgC="./images/rocket.png"
 					/>
 					<Course
 						Categories="Skills"
