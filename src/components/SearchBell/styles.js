@@ -10,7 +10,7 @@ const WrapperSearchBell = styled.div`
 
 const Search = styled.input`
 	padding-left: 15px;
-	font-size: 10px;
+	font-size: 15px;
 	width: 80%;
 	height: 40px;
 	border-radius: 50px;
@@ -18,8 +18,8 @@ const Search = styled.input`
 `;
 
 const ImgBell = styled.img`
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 	margin-left: 30px;
 `;
 

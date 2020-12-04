@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Development from "./components/Development";
+import Page from "./components/Page";
 
-ReactDOM.render(<Development />, document.getElementById("root"));
+ReactDOM.render(<Page />, document.getElementById("root"));

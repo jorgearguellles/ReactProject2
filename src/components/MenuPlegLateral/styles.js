@@ -35,7 +35,7 @@ const List = styled.ul`
 
 const ItemList = styled.li`
 	margin: 5px 0px;
-	font-size: 13px;
+	font-size: 15px;
 `;
 
 const Anchor = styled.a`

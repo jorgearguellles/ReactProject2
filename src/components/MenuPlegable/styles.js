@@ -19,7 +19,7 @@ const ImgDownArrow = styled.img`
 `;
 
 const Title = styled.p`
-	font-size: 10px;
+	font-size: 15px;
 	font-family: ruda;
 `;
 
@@ -29,7 +29,7 @@ const List = styled.ul`
 	padding: 15px;
 	position: absolute;
 	text-align: center;
-	margin: -15px 0px 0px -10px;
+	margin: -15px 0px 0px 10px;
 	${WrapperMenuPlegable}:hover & {
 		display: block;
 	}
@@ -37,7 +37,7 @@ const List = styled.ul`
 
 const ItemList = styled.li`
 	margin: 5px 0px;
-	font-size: 10px;
+	font-size: 15px;
 `;
 
 const Anchor = styled.a`

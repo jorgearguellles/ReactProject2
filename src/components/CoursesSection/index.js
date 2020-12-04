@@ -9,14 +9,14 @@ class CoursesSection extends React.Component {
 				<Details>Published 20 courses </Details>
 				<WrapperCourses>
 					<Course
-						background="red"
+						background="imgObj"
 						Categories="Design"
 						Title1="Modern Art"
 						Title2="and Design"
 						Details="10 lessons | 3 workshop"
 						ImgStar="./images/star.png"
 						Stars="Saved"
-						ImgC="./images/lamp.png"
+						ImgC="./images/brain.png"
 					/>
 					<Course
 						Categories="Skills"

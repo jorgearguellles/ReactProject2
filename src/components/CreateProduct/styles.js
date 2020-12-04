@@ -21,7 +21,7 @@ const CreateBottom = styled.button`
 	background-color: orange;
 	color: white;
 	font-family: ruda;
-	font-size: 11px;
+	font-size: 15px;
 	border-radius: 50px;
 	border: none;
 `;
