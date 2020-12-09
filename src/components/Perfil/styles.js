@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const WrapperPerfilArrow = styled.div`
-	width: 10vw;
+	// width: 10vw;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -14,8 +14,8 @@ const WrapperPerfil = styled.div`
 `;
 
 const PerfilFoto = styled.img`
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 `;
 
 const WrapperPerfilDetails = styled.div`
@@ -23,8 +23,8 @@ const WrapperPerfilDetails = styled.div`
 `;
 
 const NamePerfil = styled.p`
-	width: 90px;
-	font-size: 13px;
+	width: 150px;
+	font-size: 20px;
 	font-family: ruda;
 	margin: 3px 10px;
 `;
@@ -38,7 +38,7 @@ const ArrowLeft = styled.img`
 	height: 25px;
 	border-radius: 20px;
 	padding: 3px;
-	margin-right: -85px;
+	margin-right: -35px;
 	background-color: white;
 `;
 

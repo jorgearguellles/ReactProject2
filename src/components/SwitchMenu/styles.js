@@ -9,6 +9,7 @@ const ImgCuadros = styled.img`
 	width: 30px;
 	height: 30px;
 	margin-right: 10px;
+	background-color: orange;
 `;
 
 const ImgBarras = styled.img`

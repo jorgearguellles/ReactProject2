@@ -3,10 +3,9 @@ import styled from "styled-components";
 const WrapperSectionMenuLat = styled.div`
 	width: 80%;
 	height: 15%;
-	background-color: #b5f1b0;
+	background-color: #ffe0a6;
 	border-radius: 40px;
 	padding: 20px;
-	margin-top: 25px;
 `;
 
 const WrapperDetails = styled.div``;

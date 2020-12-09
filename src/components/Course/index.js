@@ -14,7 +14,7 @@ import {
 class Course extends React.Component {
 	render() {
 		return (
-			<WrapperCourse background="red">
+			<WrapperCourse>
 				<Categories>{this.props.Categories} </Categories>
 				<Title>
 					{this.props.Title1} <br /> {this.props.Title2}

@@ -3,8 +3,7 @@ import styled from "styled-components";
 const WrapperCourse = styled.div`
 	width: 260px;
 	height: 260px;
-	// background-color: #53cde8;
-	background: ${(props) => props.background}
+	background-color: #0042ff;
 	border-radius: 40px;
 	padding: 20px;
 	margin: 0 auto;
@@ -13,6 +12,7 @@ const WrapperCourse = styled.div`
 
 const Categories = styled.p`
 	font-family: ruda;
+	color: white;
 `;
 
 const Title = styled(Categories)`
@@ -45,6 +45,7 @@ const Start = styled.img`
 
 const Starts = styled(Categories)`
 	font-size: 10px;
+	color: black;
 `;
 
 const ImgCourse = styled.img`
