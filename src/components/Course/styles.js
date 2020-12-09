@@ -3,7 +3,9 @@ import styled from "styled-components";
 const WrapperCourse = styled.div`
 	width: 260px;
 	height: 260px;
-	background-color: #0042ff;
+	// background-color: #0042ff;
+	background-color: ${(props) => props.BackgroundColor};
+
 	border-radius: 40px;
 	padding: 20px;
 	margin: 0 auto;
