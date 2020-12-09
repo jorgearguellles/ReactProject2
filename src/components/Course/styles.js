@@ -4,8 +4,7 @@ const WrapperCourse = styled.div`
 	width: 260px;
 	height: 260px;
 	// background-color: #53cde8;
-	background-image: url(${(props) =>
-		props.imgObj ? props.imgObj.url : "bell.png"})
+	background: ${(props) => props.background}
 	border-radius: 40px;
 	padding: 20px;
 	margin: 0 auto;

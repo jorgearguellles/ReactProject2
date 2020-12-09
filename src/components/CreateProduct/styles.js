@@ -24,6 +24,8 @@ const CreateBottom = styled.button`
 	font-size: 15px;
 	border-radius: 50px;
 	border: none;
+	outline: none;
+	cursor: pointer;
 `;
 
 export { WrapperCreateProduct, WrapperMenus, CreateBottom };

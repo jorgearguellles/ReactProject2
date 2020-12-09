@@ -6,14 +6,14 @@ const WrapperMenuView = styled.div`
 `;
 
 const ImgCuadros = styled.img`
-	width: 18px;
-	height: 18px;
+	width: 30px;
+	height: 30px;
 	margin-right: 10px;
 `;
 
 const ImgBarras = styled.img`
-	width: 15px;
-	height: 15px;
+	width: 25px;
+	height: 25px;
 `;
 
 export { WrapperMenuView, ImgBarras, ImgCuadros };
