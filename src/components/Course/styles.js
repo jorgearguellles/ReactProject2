@@ -3,7 +3,9 @@ import styled from "styled-components";
 const WrapperCourse = styled.div`
 	width: 260px;
 	height: 260px;
-	background-color: #45a8be;
+	// background-color: #53cde8;
+	background-image: url(${(props) =>
+		props.imgObj ? props.imgObj.url : "bell.png"})
 	border-radius: 40px;
 	padding: 20px;
 	margin: 0 auto;
